@@ -287,7 +287,43 @@ menui{
     color: var(--first-color);
 }
 
+#btnServe{
+    background: transparent;
+    color: #5361FF;
+    border-color: #5361FF;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+#btnServe:hover{
+    background: #5361FF;
+    color: white;
+}
+
+#service{
+    margin-bottom: var(--mb-1);
+    color: white;
+    font-size: 17px;
+    text-align: start;
+    margin-top: 15px;
+    list-style-type: circle;
+}
+
 @media (max-width: 500px){
+    #btnServe{
+        border-radius: 20px;
+        
+    }
+
+    #service{
+        margin-bottom: var(--mb-1);
+        color: white;
+        font-size: 15px;
+        text-align: start;
+        margin-top: 15px;
+        font-weight: lighter;
+        list-style-type: circle;
+    }
     
     .about__img img{
         width: 140px;
