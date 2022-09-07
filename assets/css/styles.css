@@ -261,7 +261,8 @@ menui{
     overflow: hidden;
 }
 .about__img img{
-    width: 100px;
+    width: 250px;
+    height: 200px;
 }
 .about__subtitle{
     font-size: 35px;
@@ -289,9 +290,9 @@ menui{
 @media (max-width: 500px){
     
     .about__img img{
-    width: 140px;
+        width: 140px;
         height: 140px;
-}
+    }
 
     
 
